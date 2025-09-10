@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Verbe Avoir - Um Guia Completo</title>
+    <!-- Google Fonts - Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Define the custom colors in Tailwind config for easy use */
+        :root {
+            --dark-background: #141414;
+            --yellow-primary: #ffc700;
+            --red-accent: #E50914;
+            --green-accent: #22c55e;
+            --blue-accent: #3b82f6; 
+            --purple-accent: #8b5cf6;
+            --orange-accent: #f97316;
+            --teal-accent: #14b8a6;
+        }
+        
+        /* Custom glow effect for the header on hover */
+        .title-glow-hover:hover {
+            text-shadow: 0 0 5px var(--yellow-primary), 0 0 10px var(--yellow-primary), 0 0 15px var(--yellow-primary);
+            transition: text-shadow 0.3s ease-in-out;
+        }
+
+        /* Vertical bar for content blocks */
+        .content-block-orange::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 5px;
+            background-color: var(--orange-accent);
+            border-radius: 4px 0 0 4px;
+        }
+
+        .content-block-teal::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 5px;
+            background-color: var(--teal-accent);
+            border-radius: 4px 0 0 4px;
+        }
+
+        .content-block-purple::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 5px;
+            background-color: var(--purple-accent);
+            border-radius: 4px 0 0 4px;
+        }
+
+        .content-block-green::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 5px;
+            background-color: var(--green-accent);
+            border-radius: 4px 0 0 4px;
+        }
+        
+        .content-block-blue::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 5px;
+            background-color: var(--blue-accent);
+            border-radius: 4px 0 0 4px;
+        }
+
+        /* Hover effects for content blocks */
+        .content-block-hover:hover {
+            box-shadow: 0 0 15px var(--yellow-primary);
+            transition: box-shadow 0.3s ease-in-out;
+        }
+
+        /* Pulsing animation keyframes */
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+            50% {
+                transform: scale(1.05);
+                opacity: 0.8;
+            }
+        }
+        
+        /* Animated class for pulsing effect */
+        .pulse-text {
+            animation: pulse 1.5s infinite;
+        }
+    </style>
+</head>
+<body class="bg-[#141414] text-white font-sans p-8">
+
+    <!-- Header Section -->
+    <header class="text-center mb-16">
+        <h1 class="text-5xl font-bold text-[#ffc700] title-glow-hover pulse-text mb-2 md:text-6xl">Le Verbe Avoir <span class="text-lg italic text-gray-400"> (lê vérb avoir)</span></h1>
+        <h2 class="text-xl text-white opacity-70 md:text-2xl">Um Guia Completo <span class="text-sm italic text-gray-400"> (an gid komple)</span></h2>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="max-w-4xl mx-auto space-y-8">
+
+        <!-- Introductory Section -->
+        <section class="p-6 rounded-xl border-2 border-[#f97316] bg-white bg-opacity-5 relative content-block-orange content-block-hover">
+            <h3 class="text-2xl font-bold mb-4 text-white">Qu'est-ce que ça veut dire? <span class="text-lg italic text-gray-400"> (kés ke sa vê dir?)</span> / O que significa?</h3>
+            <p class="text-lg leading-relaxed text-gray-200 mb-4">
+                <span class="font-bold text-[#ffc700]">En Français <span class="text-sm italic text-gray-400"> (an franse)</span>:</span> "Avoir <span class="text-sm italic text-gray-400"> (avoir)</span>" est l'un des verbes les plus importants et les plus couramment utilisés en français. Il signifie "to have" en anglais et est un verbe fondamental pour construire des phrases, surtout pour indiquer la possession. C'est la base de la grammaire française.
+            </p>
+            <p class="text-lg leading-relaxed text-gray-200">
+                <span class="font-bold text-[#ffc700]">Em português:</span> "Avoir" é um dos verbos mais importantes e mais utilizados em francês. Ele significa "ter" em português e é um verbo fundamental para construir frases, especialmente para indicar posse. É a base da gramática francesa.
+            </p>
+        </section>
+
+        <!-- French-Portuguese Dictionary Section -->
+        <section class="p-6 rounded-xl border-2 border-[#14b8a6] bg-white bg-opacity-5 relative content-block-teal content-block-hover">
+            <h3 class="text-2xl font-bold mb-4 text-white">Dictionnaire français-portugais <span class="text-lg italic text-gray-400"> (diksyoner franse-português)</span> / Dicionário Francês-Português</h3>
+            <p class="text-lg leading-relaxed text-gray-200 mb-6">
+                <span class="font-bold text-[#ffc700]">Em português:</span> Aqui está um guia de tradução para todos os termos em francês utilizados neste site.
+            </p>
+            <div class="overflow-x-auto rounded-lg">
+                <table class="w-full text-left text-sm text-gray-400">
+                    <thead class="text-xs text-gray-100 uppercase bg-[#ffc700] bg-opacity-20">
+                        <tr>
+                            <th scope="col" class="px-6 py-3">
+                                Terme Français
+                            </th>
+                            <th scope="col" class="px-6 py-3">
+                                Tradução en Português
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="bg-gray-800 bg-opacity-50 border-b border-gray-700">
+                            <td class="px-6 py-4 font-medium text-white whitespace-nowrap">Le Verbe Avoir <span class="text-sm italic text-gray-400"> (lê vérb avoir)</span></td>
+                            <td class="px-6 py-4">O verbo "ter"</td>
+                        </tr>
+                        <tr class="bg-gray-800 bg-opacity-50 border-b border-gray-700">
+                            <td class="px-6 py-4 font-medium text-white whitespace-nowrap">Un Guide Complet <span class="text-sm italic text-gray-400"> (an gid komple)</span></td>
+                            <td class="px-6 py-4">Um Guia Completo</td>
+                        </tr>
+                        <tr class="bg-gray-800 bg-opacity-50 border-b border-gray-700">
+                            <td class="px-6 py-4 font-medium text-white whitespace-nowrap">Qu'est-ce que ça veut dire? <span class="text-sm italic text-gray-400"> (kés ke sa vê dir?)</span></td>
+                            <td class="px-6 py-4">O que significa?</td>
+                        </tr>
+                        <tr class="bg-gray-800 bg-opacity-50 border-b border-gray-700">
+                            <td class="px-6 py-4 font-medium text-white whitespace-nowrap">En Français <span class="text-sm italic text-gray-400"> (an franse)</span></td>
+                            <td class="px-6 py-4">Em Francês</td>
+                        </tr>
+                        <tr class="bg-gray-800 bg-opacity-50 border-b border-gray-700">
+                            <td class="px-6 py-4 font-medium text-white whitespace-nowrap">Em português</td>
+                            <td class="px-6 py-4">Em Português</td>
+                        </tr>
+                        <tr class="bg-gray-800 bg-opacity-50 border-b border-gray-700">
+                            <td class="px-6 py-4 font-medium text-white whitespace-nowrap">Conjugaison au Présent <span class="text-sm italic text-gray-400"> (konjugeson o presan)</span></td>
+                            <td class="px-6 py-4">Conjugação no Presente</td>
+                        </tr>
+                        <tr class="bg-gray-800 bg-opacity-50 border-b border-gray-700">
+                            <td class="px-6 py-4 font-medium text-white whitespace-nowrap">Règles d'Utilisation <span class="text-sm italic text-gray-400"> (rêgl dü utilizasyõ)</span></td>
+                            <td class="px-6 py-4">Regras de Uso</td>
+                        </tr>
+                        <tr class="bg-gray-800 bg-opacity-50 border-b border-gray-700">
+                            <td class="px-6 py-4 font-medium text-white whitespace-nowrap">Possession <span class="text-sm italic text-gray-400"> (possesyon)</span></td>
+                            <td class="px-6 py-4">Posse</td>
+                        </tr>
+                        <tr class="bg-gray-800 bg-opacity-50 border-b border-gray-700">
+                            <td class="px-6 py-4 font-medium text-white whitespace-nowrap">Âge <span class="text-sm italic text-gray-400"> (áj)</span></td>
+                            <td class="px-6 py-4">Idade</td>
+                        </tr>
+                        <tr class="bg-gray-800 bg-opacity-50 border-b border-gray-700">
+                            <td class="px-6 py-4 font-medium text-white whitespace-nowrap">Sensations Physiques <span class="text-sm italic text-gray-400"> (sansasyon fizík)</span></td>
+                            <td class="px-6 py-4">Sensações Físicas</td>
+                        </tr>
+                        <tr class="bg-gray-800 bg-opacity-50 border-b border-gray-700">
+                            <td class="px-6 py-4 font-medium text-white whitespace-nowrap">Conjugaison au Passé Composé <span class="text-sm italic text-gray-400"> (konjugeson o pasé komposé)</span></td>
+                            <td class="px-6 py-4">Conjugação no Passado Composto</td>
+                        </tr>
+                        <tr class="bg-gray-800 bg-opacity-50 border-b border-gray-700">
+                            <td class="px-6 py-4 font-medium text-white whitespace-nowrap">Avoir <span class="text-sm italic text-gray-400"> (avoir)</span> vs Être <span class="text-sm italic text-gray-400"> (etr)</span></td>
+                            <td class="px-6 py-4">Ter vs Ser</td>
+                        </tr>
+                        <tr class="bg-gray-800 bg-opacity-50 border-b border-gray-700">
+                            <td class="px-6 py-4 font-medium text-white whitespace-nowrap">Non <span class="text-sm italic text-gray-400"> (non)</span></td>
+                            <td class="px-6 py-4">Não</td>
+                        </tr>
+                        <tr class="bg-gray-800 bg-opacity-50 border-b border-gray-700">
+                            <td class="px-6 py-4 font-medium text-white whitespace-nowrap">Oui <span class="text-sm italic text-gray-400"> (uí)</span></td>
+                            <td class="px-6 py-4">Sim</td>
+                        </tr>
+                        <tr class="bg-gray-800 bg-opacity-50 border-b border-gray-700">
+                            <td class="px-6 py-4 font-medium text-white whitespace-nowrap">Exemple <span class="text-sm italic text-gray-400"> (egzampl)</span></td>
+                            <td class="px-6 py-4">Exemplo</td>
+                        </tr>
+                        <tr class="bg-gray-800 bg-opacity-50">
+                            <td class="px-6 py-4 font-medium text-white whitespace-nowrap">Exercices <span class="text-sm italic text-gray-400"> (egzersees)</span></td>
+                            <td class="px-6 py-4">Exercícios</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Conjugation Section - Present -->
+        <section class="p-6 rounded-xl border-2 border-[#14b8a6] bg-white bg-opacity-5 relative content-block-teal content-block-hover">
+            <h3 class="text-2xl font-bold mb-4 text-white">Conjugaison au Présent <span class="text-lg italic text-gray-400"> (konjugeson o presan)</span> / Conjugação no Presente</h3>
+            <p class="text-lg leading-relaxed text-gray-200 mb-6">
+                <span class="font-bold text-[#ffc700]">Em português:</span> Aqui está a conjugação do verbo "avoir" no presente do indicativo.
+            </p>
+            <div class="space-y-4 text-gray-200 text-lg">
+                <p><span class="font-bold text-[#ffc700]">J'ai <span class="text-sm italic text-gray-400"> (j'é)</span></span> - Eu tenho</p>
+                <p><span class="font-bold text-[#ffc700]">Tu as <span class="text-sm italic text-gray-400"> (tü a)</span></span> - Tu tens</p>
+                <p><span class="font-bold text-[#ffc700]">Il / Elle / On a <span class="text-sm italic text-gray-400"> (il / el / on a)</span></span> - Ele / Ela / A gente tem</p>
+                <p><span class="font-bold text-[#ffc700]">Nous avons <span class="text-sm italic text-gray-400"> (nu zavon)</span></span> - Nós temos</p>
+                <p><span class="font-bold text-[#ffc700]">Vous avez <span class="text-sm italic text-gray-400"> (vuz avé)</span></span> - Vocês têm</p>
+                <p><span class="font-bold text-[#ffc700]">Ils / Elles ont <span class="text-sm italic text-gray-400"> (il / el zont)</span></span> - Eles / Elas têm</p>
+            </div>
+        </section>
+
+        <!-- Conjugation Section - Past -->
+        <section class="p-6 rounded-xl border-2 border-[#3b82f6] bg-white bg-opacity-5 relative content-block-blue content-block-hover">
+            <h3 class="text-2xl font-bold mb-4 text-white">Conjugaison au Passé Composé <span class="text-lg italic text-gray-400"> (konjugeson o pasé komposé)</span> / Conjugação no Passado Composto</h3>
+            <p class="text-lg leading-relaxed text-gray-200 mb-4">
+                <span class="font-bold text-[#ffc700]">En Français <span class="text-sm italic text-gray-400"> (an franse)</span>:</span> Pour former le passé composé du verbe "avoir", on utilise l'auxiliaire **avoir <span class="text-sm italic text-gray-400"> (avoir)</span>** avec le participe passé **eu <span class="text-sm italic text-gray-400"> (u)</span>**.
+            </p>
+            <p class="text-lg leading-relaxed text-gray-200 mb-6">
+                <span class="font-bold text-[#ffc700]">Em português:</span> Para formar o passado composto do verbo "avoir", usamos o verbo auxiliar **avoir** com o particípio passado **eu**.
+            </p>
+            <div class="space-y-4 text-gray-200 text-lg">
+                <p><span class="font-bold text-[#ffc700]">J'ai eu <span class="text-sm italic text-gray-400"> (j'é u)</span></span> - Eu tive</p>
+                <p><span class="font-bold text-[#ffc700]">Tu as eu <span class="text-sm italic text-gray-400"> (tü a u)</span></span> - Tu tiveste</p>
+                <p><span class="font-bold text-[#ffc700]">Il / Elle / On a eu <span class="text-sm italic text-gray-400"> (il / el / on a u)</span></span> - Ele / Ela / A gente teve</p>
+                <p><span class="font-bold text-[#ffc700]">Nous avons eu <span class="text-sm italic text-gray-400"> (nu zavon u)</span></span> - Nós tivemos</p>
+                <p><span class="font-bold text-[#ffc700]">Vous avez eu <span class="text-sm italic text-gray-400"> (vuz avé u)</span></span> - Vocês tiveram</p>
+                <p><span class="font-bold text-[#ffc700]">Ils / Elles ont eu <span class="text-sm italic text-gray-400"> (il / el zont u)</span></span> - Eles / Elas tiveram</p>
+            </div>
+            <div class="mt-8 space-y-4">
+                <h4 class="text-xl font-bold text-[#ffc700]">Exemples:</h4>
+                <ul class="list-disc list-inside text-gray-200 space-y-2">
+                    <li>**J'ai eu <span class="text-sm italic text-gray-400"> (j'é u)</span>** de la chance. (Eu tive sorte.)</li>
+                    <li>**Tu as eu <span class="text-sm italic text-gray-400"> (tü a u)</span>** raison. (Tu tiveste razão.)</li>
+                    <li>**Elle a eu <span class="text-sm italic text-gray-400"> (el a u)</span>** un bébé. (Ela teve um bebê.)</li>
+                    <li>**Nous avons eu <span class="text-sm italic text-gray-400"> (nu zavon u)</span>** une réunion. (Nós tivemos uma reunião.)</li>
+                    <li>**Vous avez eu <span class="text-sm italic text-gray-400"> (vuz avé u)</span>** beaucoup de travail. (Vocês tiveram muito trabalho.)</li>
+                    <li>**Ils ont eu <span class="text-sm italic text-gray-400"> (il zont u)</span>** faim. (Eles tiveram fome.)</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Usage Rules Section -->
+        <section class="p-6 rounded-xl border-2 border-[#8b5cf6] bg-white bg-opacity-5 relative content-block-purple content-block-hover">
+            <h3 class="text-2xl font-bold mb-4 text-white">Règles d'Utilisation <span class="text-lg italic text-gray-400"> (rêgl dü utilizasyõ)</span> / Regras de Uso</h3>
+            <p class="text-lg leading-relaxed text-gray-200 mb-4">
+                <span class="font-bold text-[#ffc700]">En Français <span class="text-sm italic text-gray-400"> (an franse)</span>:</span> Le verbe "avoir <span class="text-sm italic text-gray-400"> (avoir)</span>" est utilisé pour de nombreuses fonctions. / <span class="font-bold text-[#ffc700]">Em português:</span> O verbo "avoir" é usado para muitas funções.
+            </p>
+            <div class="space-y-8">
+                <!-- Rule 1: Possession -->
+                <div>
+                    <h4 class="text-xl font-bold mb-2 text-[#ffc700]">1. Possession <span class="text-sm italic text-gray-400"> (possesyon)</span> / Posse</h4>
+                    <p class="text-lg leading-relaxed text-gray-200 mb-4">
+                        <span class="font-bold">Pour indiquer que vous possédez quelque chose. <span class="text-sm italic text-gray-400"> (pur andiké ke vu possedé kelkê chos)</span></span>
+                        <br>
+                        <span class="text-sm italic opacity-75">Para indicar que você possui algo.</span>
+                    </p>
+                    <ul class="list-disc list-inside text-gray-200 space-y-2">
+                        <li>**J'ai <span class="text-sm italic text-gray-400"> (j'é)</span>** une voiture. (Eu tenho um carro.)</li>
+                        <li>**Tu as <span class="text-sm italic text-gray-400"> (tü a)</span>** un chat. (Tu tens um gato.)</li>
+                        <li>**Elle a <span class="text-sm italic text-gray-400"> (el a)</span>** une idée. (Ela tem uma ideia.)</li>
+                        <li>**Nous avons <span class="text-sm italic text-gray-400"> (nu zavon)</span>** des livres. (Nós temos livros.)</li>
+                        <li>**Vous avez <span class="text-sm italic text-gray-400"> (vuz avé)</span>** des amis. (Vocês têm amigos.)</li>
+                        <li>**Ils ont <span class="text-sm italic text-gray-400"> (il zont)</span>** une maison. (Eles têm uma casa.)</li>
+                    </ul>
+                </div>
+                <!-- Rule 2: Expressions of Age -->
+                <div>
+                    <h4 class="text-xl font-bold mb-2 text-[#ffc700]">2. Âge <span class="text-sm italic text-gray-400"> (áj)</span> / Idade</h4>
+                    <p class="text-lg leading-relaxed text-gray-200 mb-4">
+                        <span class="font-bold">Pour indiquer l'âge d'une personne. <span class="text-sm italic text-gray-400"> (pur andiké láj dun pèrson)</span></span>
+                        <br>
+                        <span class="text-sm italic opacity-75">Para indicar a idade de uma pessoa.</span>
+                    </p>
+                    <ul class="list-disc list-inside text-gray-200 space-y-2">
+                        <li>**J'ai <span class="text-sm italic text-gray-400"> (j'é)</span>** 25 ans. (Eu tenho 25 anos.)</li>
+                        <li>**Tu as <span class="text-sm italic text-gray-400"> (tü a)</span>** 18 ans. (Tu tens 18 anos.)</li>
+                        <li>**Il a <span class="text-sm italic text-gray-400"> (il a)</span>** 40 ans. (Ele tem 40 anos.)</li>
+                        <li>**Nous avons <span class="text-sm italic text-gray-400"> (nu zavon)</span>** 30 ans. (Nós temos 30 anos.)</li>
+                        <li>**Vous avez <span class="text-sm italic text-gray-400"> (vuz avé)</span>** 50 ans. (Vocês têm 50 anos.)</li>
+                        <li>**Elles ont <span class="text-sm italic text-gray-400"> (el zont)</span>** 6 ans. (Elas têm 6 anos.)</li>
+                    </ul>
+                </div>
+                <!-- Rule 3: Physical Sensations -->
+                <div>
+                    <h4 class="text-xl font-bold mb-2 text-[#ffc700]">3. Sensations Physiques <span class="text-sm italic text-gray-400"> (sansasyon fizík)</span> / Sensações Físicas</h4>
+                    <p class="text-lg leading-relaxed text-gray-200 mb-4">
+                        <span class="font-bold">Pour décrire un état physique ou une sensation. <span class="text-sm italic text-gray-400"> (pur dekrír an eta fizík u ün sansasyon)</span></span>
+                        <br>
+                        <span class="text-sm italic opacity-75">Para descrever um estado físico ou uma sensação.</span>
+                    </p>
+                    <ul class="list-disc list-inside text-gray-200 space-y-2">
+                        <li>**J'ai <span class="text-sm italic text-gray-400"> (j'é)</span>** faim. (Eu estou com fome.)</li>
+                        <li>**Tu as <span class="text-sm italic text-gray-400"> (tü a)</span>** soif. (Tu estás com sede.)</li>
+                        <li>**Il a <span class="text-sm italic text-gray-400"> (il a)</span>** chaud. (Ele está com calor.)</li>
+                        <li>**Nous avons <span class="text-sm italic text-gray-400"> (nu zavon)</span>** froid. (Nós estamos com frio.)</li>
+                        <li>**Vous avez <span class="text-sm italic text-gray-400"> (vuz avé)</span>** peur. (Vocês estão com medo.)</li>
+                        <li>**Ils ont <span class="text-sm italic text-gray-400"> (il zont)</span>** sommeil. (Eles estão com sono.)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- New Comparative Table Section: Avoir vs Être -->
+        <section class="p-6 rounded-xl border-2 border-[#3b82f6] bg-white bg-opacity-5 relative content-block-blue content-block-hover">
+            <h3 class="text-2xl font-bold mb-4 text-white">Avoir <span class="text-lg italic text-gray-400"> (avoir)</span> vs Être <span class="text-lg italic text-gray-400"> (etr)</span></h3>
+            <p class="text-lg leading-relaxed text-gray-200 mb-6">
+                <span class="font-bold text-[#ffc700]">Em português:</span> Ambos os verbos são fundamentais. Saiba quando usar **Avoir** ou **Être** com base nas situações.
+            </p>
+            <div class="overflow-x-auto rounded-lg">
+                <table class="w-full text-left text-sm text-gray-400">
+                    <thead class="text-xs text-gray-100 uppercase bg-[#ffc700] bg-opacity-20">
+                        <tr>
+                            <th scope="col" class="px-6 py-3">
+                                Règle d'Utilisation <span class="text-sm italic text-gray-400"> (rêgl dü utilizasyõ)</span>
+                            </th>
+                            <th scope="col" class="px-6 py-3">
+                                Avoir <span class="text-sm italic text-gray-400"> (avoir)</span>
+                            </th>
+                            <th scope="col" class="px-6 py-3">
+                                Être <span class="text-sm italic text-gray-400"> (etr)</span>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="bg-gray-800 bg-opacity-50 border-b border-gray-700">
+                            <td class="px-6 py-4 font-medium text-white whitespace-nowrap">
+                                L'âge <span class="text-sm italic text-gray-400"> (láj)</span> (Idade)
+                            </td>
+                            <td class="px-6 py-4 font-bold text-[#ffc700]">
+                                Oui <span class="text-sm italic text-gray-400"> (uí)</span> (Sim)
+                                <p class="text-xs italic opacity-70">Exemple: J'ai 25 ans.</p>
+                            </td>
+                            <td class="px-6 py-4">
+                                Non <span class="text-sm italic text-gray-400"> (non)</span> (Não)
+                            </td>
+                        </tr>
+                        <tr class="bg-gray-800 bg-opacity-50 border-b border-gray-700">
+                            <td class="px-6 py-4 font-medium text-white whitespace-nowrap">
+                                Les possessions <span class="text-sm italic text-gray-400"> (lé posesyon)</span> (Posse)
+                            </td>
+                            <td class="px-6 py-4 font-bold text-[#ffc700]">
+                                Oui <span class="text-sm italic text-gray-400"> (uí)</span> (Sim)
+                                <p class="text-xs italic opacity-70">Exemple: Nous avons un chat.</p>
+                            </td>
+                            <td class="px-6 py-4">
+                                Non <span class="text-sm italic text-gray-400"> (non)</span> (Não)
+                            </td>
+                        </tr>
+                        <tr class="bg-gray-800 bg-opacity-50 border-b border-gray-700">
+                            <td class="px-6 py-4 font-medium text-white whitespace-nowrap">
+                                Les sentiments (sentimentos)
+                            </td>
+                            <td class="px-6 py-4 font-bold text-[#ffc700]">
+                                Oui <span class="text-sm italic text-gray-400"> (uí)</span> (Sim)
+                                <p class="text-xs italic opacity-70">Exemple: J'ai faim.</p>
+                            </td>
+                            <td class="px-6 py-4">
+                                Non <span class="text-sm italic text-gray-400"> (non)</span> (Não)
+                                <p class="text-xs italic opacity-70">Exemple: Je suis fatigué.</p>
+                            </td>
+                        </tr>
+                        <tr class="bg-gray-800 bg-opacity-50">
+                            <td class="px-6 py-4 font-medium text-white whitespace-nowrap">
+                                La nationalité <span class="text-sm italic text-gray-400"> (la nasyonality)</span> (Nacionalidade)
+                            </td>
+                            <td class="px-6 py-4">
+                                Non <span class="text-sm italic text-gray-400"> (non)</span> (Não)
+                            </td>
+                            <td class="px-6 py-4 font-bold text-[#ffc700]">
+                                Oui <span class="text-sm italic text-gray-400"> (uí)</span> (Sim)
+                                <p class="text-xs italic opacity-70">Exemple: Je suis brésilien.</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Exercises Section -->
+        <section class="p-6 rounded-xl border-2 border-[#22c55e] bg-white bg-opacity-5 relative content-block-green content-block-hover">
+            <h3 class="text-2xl font-bold mb-4 text-white">Exercices <span class="text-lg italic text-gray-400"> (egzersees)</span> / Exercícios</h3>
+            <p class="text-lg leading-relaxed text-gray-200 mb-4">
+                Choisissez la forme correcte du verbe "avoir" pour chaque phrase. / Escolha a forma correta do verbo "avoir" para cada frase.
+            </p>
+
+            <div id="quiz-container" class="space-y-6">
+                <!-- Quiz will be rendered here by JavaScript -->
+            </div>
+            
+            <div id="quiz-feedback" class="text-center text-lg mt-4 font-bold"></div>
+            
+            <div class="mt-8 flex justify-center">
+                <button id="next-question" class="px-6 py-3 bg-[#ffc700] text-black font-bold rounded-lg shadow-lg hover:shadow-xl transition-shadow transform hover:scale-105 duration-200">
+                    Prochaine Question <span class="text-sm italic text-gray-400"> (prochen kestyon)</span>
+                </button>
+            </div>
+        </section>
+
+    </main>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const quizContainer = document.getElementById('quiz-container');
+            const nextButton = document.getElementById('next-question');
+            const feedbackElement = document.getElementById('quiz-feedback');
+            
+            let currentQuestionIndex = 0;
+            let score = 0;
+
+            const quizQuestions = [
+                {
+                    question: "J'___ une voiture rouge.",
+                    options: ["ai", "as", "a"],
+                    answer: "ai"
+                },
+                {
+                    question: "Nous ___ un grand jardin.",
+                    options: ["ont", "avons", "avez"],
+                    answer: "avons"
+                },
+                {
+                    question: "Elle ___ faim.",
+                    options: ["as", "a", "avez"],
+                    answer: "a"
+                },
+                {
+                    question: "Vous ___ 20 ans.",
+                    options: ["as", "avez", "ont"],
+                    answer: "avez"
+                },
+                {
+                    question: "Ils ___ soif.",
+                    options: ["avons", "ont", "avez"],
+                    answer: "ont"
+                },
+                {
+                    question: "Tu ___ de la chance.",
+                    options: ["as", "a", "ai"],
+                    answer: "as"
+                },
+                {
+                    question: "Il ___ un frère et une sœur.",
+                    options: ["ai", "as", "a"],
+                    answer: "a"
+                },
+                {
+                    question: "Nous ___ des examens demain.",
+                    options: ["avons", "avez", "ont"],
+                    answer: "avons"
+                }
+            ];
+
+            function renderQuestion() {
+                if (currentQuestionIndex >= quizQuestions.length) {
+                    showFinalScore();
+                    return;
+                }
+
+                const currentQuestionData = quizQuestions[currentQuestionIndex];
+                
+                quizContainer.innerHTML = `
+                    <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                        <p class="text-lg font-semibold mb-4 text-[#ffc700]">${currentQuestionData.question}</p>
+                        <div class="space-y-4">
+                            ${currentQuestionData.options.map((option, index) => `
+                                <button class="w-full px-4 py-2 rounded-md bg-gray-700 text-white font-medium hover:bg-gray-600 transition-colors" data-option="${option}">
+                                    ${option}
+                                </button>
+                            `).join('')}
+                        </div>
+                    </div>
+                `;
+                
+                document.querySelectorAll('#quiz-container button').forEach(button => {
+                    button.addEventListener('click', handleAnswer);
+                });
+
+                nextButton.style.display = 'none';
+                feedbackElement.textContent = '';
+            }
+
+            function handleAnswer(event) {
+                const selectedOption = event.target.dataset.option;
+                const correctAnswer = quizQuestions[currentQuestionIndex].answer;
+                
+                document.querySelectorAll('#quiz-container button').forEach(button => {
+                    button.disabled = true;
+                    if (button.dataset.option === correctAnswer) {
+                        button.classList.add('bg-green-600', 'hover:bg-green-600');
+                    } else if (button.dataset.option === selectedOption) {
+                        button.classList.add('bg-red-600', 'hover:bg-red-600');
+                    }
+                });
+
+                if (selectedOption === correctAnswer) {
+                    score++;
+                    feedbackElement.innerHTML = '<i class="fas fa-check-circle text-green-500 mr-2"></i> Correcto!';
+                } else {
+                    feedbackElement.innerHTML = `<i class="fas fa-times-circle text-red-500 mr-2"></i> Incorreto. A resposta correta é: **${correctAnswer}**`;
+                }
+
+                nextButton.style.display = 'block';
+                nextButton.onclick = () => {
+                    currentQuestionIndex++;
+                    renderQuestion();
+                };
+            }
+
+            function showFinalScore() {
+                quizContainer.innerHTML = `
+                    <div class="text-center p-8 bg-gray-800 rounded-lg shadow-lg">
+                        <h4 class="text-2xl font-bold text-[#ffc700] mb-4">Quiz Terminado!</h4>
+                        <p class="text-lg text-gray-200">Sua pontuação final é ${score} de ${quizQuestions.length}.</p>
+                    </div>
+                `;
+                feedbackElement.textContent = '';
+                nextButton.style.display = 'none';
+            }
+
+            // Start the quiz
+            renderQuestion();
+        });
+    </script>
+</body>
+</html>
